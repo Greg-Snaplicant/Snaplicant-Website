@@ -43,7 +43,8 @@ const NewsletterSignup: React.FC<NewsletterSignupProps> = ({ onClose, isModal = 
           fields: {
             name: email.split('@')[0], // Use email prefix as name fallback
             source: 'website'
-          }
+          },
+          groups: ['159942406342444663']
         }),
       });
 
